@@ -9,8 +9,13 @@
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^7.0.1",
         "laravel/framework": "^8.75",
+        "laravel/passport": "^10.4",
         "laravel/sanctum": "^2.11",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "oat-sa/lib-lti1p3-ags": "^1.4",
+        "oat-sa/lib-lti1p3-basic-outcome": "^4.1",
+        "oat-sa/lib-lti1p3-core": "^6.7",
+        "oat-sa/lib-lti1p3-deep-linking": "^4.0"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -25,7 +30,10 @@
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
             "Database\\Seeders\\": "database/seeders/"
-        }
+        },
+        "files": [
+            "app/helpers.php"
+          ]
     },
     "autoload-dev": {
         "psr-4": {
